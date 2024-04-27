@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projet Wanlp - Upload de Fichiers</title>
+  <link rel="stylesheet" href="drag&drop.css">
+</head>
+<body>
+
+  <h1>Projet Wanlp - Upload de Fichiers</h1>
+
+  <div class="upload-container">
+    <div id="dropArea">Glissez et déposez vos fichiers ici</div>
+    <button id="uploadButton">Sélectionner un fichier</button>
+    <input type="file" id="fileInput" style="display: none;">
+    <input type="url" id="urlInput" placeholder="Entrez l'URL de l'article ou du journal">
+  </div>
+
+  <div id="progressBarContainer">
+    <div id="progressBar"></div>
+  </div>
+
+  <div id="fileList"></div>
+
+  <div id="fileSize"></div>
+
+  <button id="deleteButton" style="display: none;">Supprimer le fichier</button>
+
+  <script src="drag&drop.js"></script>
+</body>
+</html>
